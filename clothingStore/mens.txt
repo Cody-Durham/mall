@@ -1,3 +1,22 @@
+Instance: My Favorite Red Flanel
+Attributes:
+  hasSleeves: true
+  materialType: ['Cotton', 'Polyester']
+  breathable: false
+  weight: 25
+
+
+
+Methods:
+  ripSleevsOff: hasSleeves = false
+  chooseMaterial: materialType = 'Cotton'
+  hasAirFlow: breathable = true
+  shirtIsWet: weight = 30
+
+
+
+
+
 Class: Flanel
 
 Attributes:
@@ -10,6 +29,6 @@ Attributes:
 
 Methods:
   ripSleevsOff (changes the hasSleeves value to false)
-  chooseMaterial (chooses type of material from materialType array)
+  chooseMaterial (chooses 1st value of material from materialType array)
   hasAirFlow (prints the value of breathable to true)
   shirtIsWet (adds the weight value by number of 5)
