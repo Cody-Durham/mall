@@ -1,0 +1,15 @@
+Class: Winter Coat
+
+Attributes:
+  puffyness (integer)
+  brandName (array)
+  color (string)
+  waterProof (boolean)
+
+
+
+Methods:
+  ripCoat (will decrease the attribute of pufyness by 0.50)
+  changeBrand (will choose a new brandName from the array)
+  fallInMud (changes the value of string to "brown")
+  isWaterProof (will display the value of waterProof boolean of true)
