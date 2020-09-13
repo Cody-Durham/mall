@@ -1,3 +1,22 @@
+Instance: Waylons puffy winter coat
+Attributes:
+  puffyness: 10
+  brandName: ['Eddie Bauer', 'Patagonia', 'Hikes For Tykes']
+  color: "blue"
+  waterProof: true
+
+
+
+Methods:
+  ripCoat: puffyness = 5
+  changeBrand: brandname = 'Hikes For Tykes'
+  fallInMud: color = 'brown'
+  isWaterProof: waterProof = true
+
+
+
+
+
 Class: Winter Coat
 
 Attributes:
