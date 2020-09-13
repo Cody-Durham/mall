@@ -1,0 +1,15 @@
+Class: Hairspray
+
+Attributes:
+  smell (boolean)
+  strength (array)
+  containerType (array)
+  containerOunces (string)
+
+
+
+Methods:
+  goodSmell (will display the value of smell to true)
+  willHoldHair (print the value from the array of strength)
+  bottleStyle (will print the value from the array of containerType)
+  pruductUsed (decrease the value of containerOunces by 10)
