@@ -1,0 +1,15 @@
+Class: Boots
+
+Attributes:
+  waterProof (boolean)
+  height (array)
+  material (string)
+  soleThickness (integer)
+
+
+
+Methods:
+  stepInWater (displays the value of waterProof to true)
+  chooseHeight (display a value from the height array)
+  chooseMaterial (displays the value from the string attribute)
+  wornBoot (decreases the number of soleThickness by 25%)
