@@ -1,0 +1,15 @@
+Class: Flanel
+
+Attributes:
+  hasSleeves (boolean)
+  materialType (array)
+  breathable (boolean)
+  weight (integer)
+
+
+
+Methods:
+  ripSleevsOff (changes the hasSleeves value to false)
+  chooseMaterial (chooses type of material from materialType array)
+  hasAirFlow (prints the value of breathable to true)
+  shirtIsWet (adds the weight value by number of 5)
